@@ -57,12 +57,13 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+# GraphQL Setup
 
-docker run --name nestJSGraphql -e POSTGRES_PASSWORD=nestJS -p 5432:5432 -d postgres
+$ docker run --name nestJSGraphql -e POSTGRES_PASSWORD=nestJS -p 5432:5432 -d postgres
 
-npm install --save @nestjs/typeorm typeorm pg
+$ npm install --save @nestjs/typeorm typeorm pg
 
-npm install @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+$ npm install @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 
 
 
