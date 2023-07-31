@@ -58,6 +58,14 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+docker run --name nestJSGraphql -e POSTGRES_PASSWORD=nestJS -p 5432:5432 -d postgres
+
+npm install --save @nestjs/typeorm typeorm pg
+
+npm install @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
